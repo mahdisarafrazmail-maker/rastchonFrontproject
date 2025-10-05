@@ -1,0 +1,300 @@
+  .container {
+      max-width: 1440px;   
+      margin: 0 auto;     
+      padding: 0 30px;     
+      box-sizing: border-box;
+      /* min-height: 100vh;    */
+    }
+.top_Container {
+    padding-top: 30px;
+    border-radius: 24px;
+    height: 214px;
+    background-color: #0A0731;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+
+}
+
+.site_title{
+    color: white;
+    font-weight: bold;
+    padding-top: 35px;
+    font-size: 24;
+    font-weight: 900;
+    margin-right: -20px;
+    
+}
+.Cat-title{
+    color:#858398;
+    font-weight: normal;
+    padding-top: 35px;
+    padding-right: 5px;
+}
+
+.CTA-bt{
+    border-radius: 5px;
+    width: 120px;
+    border: 0;
+    font-family: iranyekan;
+    height: 56px;
+    margin-top: 15px;
+    color:white;
+    font-size:800;
+    background-color: #221F45;
+    margin-right: auto;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.CTA-bt :hover {
+background-color: #fcfcfc;
+}
+    
+.SerCard{
+    margin-right: 25px;
+    position: relative;
+    top:-100px;
+}
+.SerCard span{
+    position: relative;
+    top:-5px;
+    color: white;
+    font-weight: 500;
+}
+.SerCard_shape{
+background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 316px;
+    height: 322px;
+    
+clip-path: polygon(0px 37.4259px, 0px 37.4259px, 0.17338736px 35.8822569px, 0.66634528px 34.4414712px, 1.43806752px 33.1100283px, 2.44774784px 31.8944136px, 3.65458px 30.8011125px, 5.01775776px 29.8366104px, 6.49647488px 29.0073927px, 8.04992512px 28.3199448px, 9.63730224px 27.7807521px, 11.2178px 27.3963px, 11.2178px 27.3963px, 47.5879px 20.3036px, 47.5879px 20.3036px, 48.9299177px 19.9881654px, 50.2239936px 19.5773272px, 51.4670719px 19.0756238px, 52.6560968px 18.4875936px, 53.7880125px 17.817775px, 54.8597632px 17.0707064px, 55.8682931px 16.2509262px, 56.8105464px 15.3629728px, 57.6834673px 14.4113846px, 58.484px 13.4007px, 58.484px 13.4007px, 59.8365024px 11.574314396684px, 61.2635392px 9.713818019032px, 62.7691448px 7.872527515488px, 64.3573536px 6.103759534496px, 66.0322px 4.4608307245px, 67.7977184px 2.997057733944px, 69.6579432px 1.765757211272px, 71.6169088px 0.820245804928px, 73.6786496px 0.213840163356px, 75.8472px -0.000143065px, 304px -0.000123119px, 304px -0.000123119px, 305.946361px 0.156936789029px, 307.792768px 0.611645267712px, 309.514507px 1.339295970043px, 311.086864px 2.315182549016px, 312.485125px 3.514598657625px, 313.684576px 4.912837948864px, 314.660503px 6.485194075727px, 315.388192px 8.206960691208px, 315.842929px 10.053431448301px, 316px 11.9999px, 316px 310px, 316px 310px, 315.842929px 311.946361px, 315.388192px 313.792768px, 314.660503px 315.514507px, 313.684576px 317.086864px, 312.485125px 318.485125px, 311.086864px 319.684576px, 309.514507px 320.660503px, 307.792768px 321.388192px, 305.946361px 321.842929px, 304px 322px, 12px 322px, 12px 322px, 10.05353451px 321.842929px, 8.20706688px 321.388192px, 6.48530337px 320.660503px, 4.91295024px 319.684576px, 3.51471375px 318.485125px, 2.31530016px 317.086864px, 1.33941573px 315.514507px, 0.61176672px 313.792768px, 0.15705939px 311.946361px, 1.9866611407328E-31px 310px, 0px 37.4259px); 
+}
+.img2{
+    position: relative;
+    top:40px;
+    right:100px;
+}
+.imgbackshape1 {
+    background-repeat: no-repeat;
+    width:60px;
+    height: 76px;
+    position: relative;
+    top:5px;
+    right: 5px;
+    border-top-right-radius: 10px;
+  
+}
+.imgbackshape2 {
+    background-repeat: no-repeat;
+    width:60px;
+    height: 76px;
+    position: absolute;
+    top:200px;
+    right: 5px;
+    border-top-right-radius: 10px;
+  
+}
+.line{
+    background-repeat: no-repeat;
+     position: absolute;
+    height: 2px;
+    width: 300px;
+    top:195px;
+    right:10px;
+}
+    .SerItem1-h1{
+        padding-top: 20px;
+        padding-right: 20px;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+    }
+      
+        .SerItem1-h2{
+      
+        padding-right:20px;
+        font-size: 16px;
+        font-weight: normal;
+        color: rgb(96, 96, 96);
+    }
+            .SerItem1-h2::before {
+            content:url("img/positive-o.svg");
+            width: 16px;   /* می‌تونی سایز بدی */
+            height: 16px;
+            padding-left: 3px;
+
+            }
+
+            .BtEexpert{
+                    display: inline-block;
+                    border-radius: 5px;
+                    width: 120px;
+                    border: 0;
+                    font-family: iranyekan;
+                    height: 56px;
+                    color:#0A0731;
+                    font-size:16px;
+                    font-weight:normal;
+                    background-color: #F7F7F8;
+                    cursor: pointer;
+            }
+
+            .BtEexpert:hover{
+                
+               background-color: #FF5744;
+            }
+            .BtSelect{
+                margin-top: 30px;
+                display: flex;
+                flex-direction: row;
+                gap:8px;
+            }
+            .icon1{
+                width: 20px;
+                background-repeat: no-repeat;
+                position: absolute;
+                padding: 20px;
+            }
+             .icon2{
+                width: 20px;
+                background-repeat: no-repeat;
+                position: absolute;
+                padding: 20px;
+                top:200px;
+            }
+            .ZoneItemContainer{
+                display: flex;
+                flex-direction:row;
+                
+            }
+            .DownSerCard{
+                text-align: center;
+                margin-top: 5px;
+            }
+            .BtAllSer{
+
+                    border-radius: 12px;
+                    width: 288px;
+                    border: 0;
+                    font-family: iranyekan;
+                    height: 56px;
+                    color:#0A0731;
+                    font-size:16px;
+                    font-weight:normal;
+                    background-color: #EBEBEB;
+                    cursor: pointer;
+            }
+                 .BtAllSer:hover{
+                
+               background-color: #FF5744;
+                  }
+
+                  .titleDwn{
+                    position: relative;
+                    top:-70px;
+                    font-size: 24px;
+                    padding-right: -50px;
+                    font-weight: 900;
+                    z-index: 10;
+                  }
+                  .BtArch{
+                    position: relative;
+                    border-radius: 12px;
+                    width: 148px;
+                    border: 0;
+                    font-family: iranyekan;
+                    height: 56px;
+                    color:#0A0731;
+                    font-size:16px;
+                    font-weight:normal;
+                    background-color: #EBEBEB;
+                    cursor: pointer;
+                    right:850px;
+                    top:-70px;
+                  }
+                 
+                  .ZoneDownItem{
+                    position: relative;
+                  }
+                   .nav{
+                    position: relative;
+                    top:-60px;
+                  }
+                  .DownShape_style{
+                    position: relative;
+                    background-color: white;
+                        display: flex;
+                        flex-direction: row;
+                        width: 316px;
+                        height: 322px;
+                        margin-right: 25px;
+                        clip-path: polygon( 100% 85.056%,100% 85.056%,99.962% 85.574%,99.852% 86.073%,99.674% 86.545%,99.433% 86.986%,99.134% 87.389%,98.781% 87.75%,98.379% 88.063%,97.934% 88.323%,97.449% 88.523%,96.929% 88.658%,79.908% 91.866%,79.908% 91.866%,79.185% 92.038%,78.495% 92.272%,77.841% 92.565%,77.225% 92.912%,76.652% 93.311%,76.122% 93.756%,75.638% 94.245%,75.204% 94.774%,74.822% 95.338%,74.495% 95.934%,74.495% 95.934%,74.179% 96.534%,73.82% 97.125%,73.419% 97.694%,72.977% 98.229%,72.494% 98.717%,71.972% 99.145%,71.412% 99.5%,70.814% 99.769%,70.18% 99.94%,69.511% 100%,3.797% 100%,3.797% 100%,3.181% 99.952%,2.597% 99.813%,2.052% 99.59%,1.555% 99.292%,1.112% 98.925%,0.733% 98.498%,0.424% 98.017%,0.194% 97.49%,0.05% 96.925%,0% 96.33%,0% 3.67%,0% 3.67%,0.05% 3.074%,0.194% 2.51%,0.424% 1.983%,0.733% 1.502%,1.112% 1.075%,1.555% 0.708%,2.052% 0.41%,2.597% 0.187%,3.181% 0.048%,3.797% 0%,96.203% 0%,96.203% 0%,96.818% 0.048%,97.403% 0.187%,97.948% 0.41%,98.445% 0.708%,98.888% 1.075%,99.267% 1.502%,99.576% 1.983%,99.806% 2.51%,99.95% 3.074%,100% 3.67%,100% 85.056% ); 
+                        TOP:-110PX;
+                  }
+                  .BackimgDown{
+                    background-repeat: no-repeat;
+                    width:76px;
+                    height: 56px;
+                  }
+                  .icon_down{
+                    margin:20px;
+                    position: absolute;
+                    background-repeat: no-repeat;
+                    width:20px;
+                    height: 20px;
+                  }
+                  .pic{
+                    padding: 5px;
+                    position: absolute;
+                    background-repeat: no-repeat;
+                    width: 308px;
+                    height: 170px;
+                    z-index: -5;
+                  }
+                  .h2DetainDown{
+                    
+                    font-size: 16px;
+                    font-weight:normal;
+                    color: #858398;
+
+                  }
+                  .Srttitledown{
+                    
+                    font-size: 18px;
+                    font-weight:700;
+                  }
+                  .titlezone{
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    right:-60px;
+                    top:180px;
+                  }
+                  .Btlist{
+                     position: relative;
+                    border-radius: 12px;
+                    width: 148px;
+                    border: 0;
+                    font-family: iranyekan;
+                    height: 56px;
+                    color:#0A0731;
+                    font-size:16px;
+                    font-weight:normal;
+                    background-color: #EBEBEB;
+                    cursor: pointer;
+                    margin-top: 5px;
+                    margin-right: 140px;
+                   
+                  }
+                  .oulineshape{
+                    position: relative;
+                    width: 20px;
+                     }
+
+                     .pattern{
+                        background-repeat: no-repeat;
+                        z-index: -30;
+                        position: fixed;
+                     }

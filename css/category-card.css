@@ -1,0 +1,132 @@
+
+
+/* What are you looking for?  */
+ .lookup-area{
+    position: relative;
+    margin:auto 60px;
+ }
+
+ .lookup-area__top__content{
+ display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px; 
+}
+.lookup-area__category__content__card{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ gap:16px;
+ flex-wrap: wrap;
+ flex-grow: 4;
+}
+ .lookup-area__icon{
+    width: 56px; height: 56px; 
+    padding: 18px;
+    background: linear-gradient(180deg, #46DDF3 0%, #0C8CAE 100%);
+    box-shadow: 0px 12px 32px rgba(70, 221, 243, 0.30);
+    border-radius: 12px; 
+    color: white;
+
+ }
+
+ .lookup-area__btn__allcat{
+      background-color: #EEF0F2;
+    border-radius: 12px;
+    height: 56px;
+    border: 0;
+    color: #0A0731;
+    font-size: 16px;
+  
+    font-weight: 600;
+    padding: 16px;
+    margin-left: 0;       
+    margin-right: auto;  
+}
+
+.lookup-area__category__content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    position: relative;
+}
+.card-cat-container{
+ box-sizing: border-box;
+    position: relative;
+    width: 316px;
+    height: 89px;
+    background: url("/images/icon/backcardstyle.svg") no-repeat center;
+    background-size: 100% 100%; 
+    transition: background 0.3s ease; 
+    cursor: pointer;
+  
+}
+.card-cat-container:hover{
+    background: url("/images/icon/cat-shape-hower.svg") no-repeat center;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    color: white;
+    
+    
+
+}
+
+
+    .card-cat-container .fa-solid.fa-house-user,
+    .card-cat-container .fa-solid.fa-car-rear.fa-lg,
+    .card-cat-container .fa-solid.fa-couch,
+    .card-cat-container .fa-solid.fa-hands-clapping,
+    .card-cat-container .fa-solid.fa-graduation-cap
+    
+    {
+
+     position: absolute; 
+     top: 18px; 
+     right: 28px;
+     
+    }
+
+
+.title-card {
+  position: absolute;
+  top: 20px; 
+  right: 88px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0A0731;
+}
+
+.subtitle-card {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 400;
+  color: #848398;
+  position: absolute;
+  top: 48px;
+  right: 103px;
+  padding-right: 4px;
+}
+.card-cat-container .fa-solid.fa-plus
+{
+ position: absolute; 
+ bottom: 22px; 
+ right: 88px; 
+ padding-left: 5px;
+ color: #FF5744;
+}
+
+.card-cat-container .fa-solid.fa-angle-left{
+ position: absolute; 
+ top: 40px; 
+ left: 23px; 
+ padding-left: 5px;
+ color: #848398;
+}
+
+.service-card-container{
+  display: flex;
+  flex-direction: column;
+}
+

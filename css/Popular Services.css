@@ -1,0 +1,175 @@
+.ads-area{
+display: flex;
+flex-direction: column;
+position: relative;
+margin:150px 65px;
+gap:10px;
+height: 380px;
+}
+ 
+   
+.ads-area__top__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+
+.ads-area__content__icon{
+        box-sizing: border-box;
+        width:56px;
+        height: 56px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 12px;
+        padding: 18px;
+        color: #0A0731;
+}
+.ads-area__content__title{
+  color: white;
+ font-size: 24px;
+ 
+ font-weight: 900;
+ word-wrap: break-word
+} 
+.ads-area__btn__allads{
+    background-color: #EEF0F2;
+    border-radius: 12px;
+    height: 56px;
+    border: 0;
+    color: #0A0731;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px;
+    margin-left: 0;       
+    margin-right: auto;  
+}
+
+
+.ads-area__card__ctn{
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap:16px;
+flex-wrap: 4;
+flex-wrap: wrap;
+
+}
+.card-ads-container{
+    
+    background:url("/images/icon/new-ads-backshape.svg") no-repeat center;
+    width: 316px;
+    height: 327px;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+.card-ads-container {
+    position: relative;
+    text-align: right;
+    width: 316px;
+    height: 327px;
+    background: url("/images/icon/new-ads-backshape.svg") no-repeat center;
+    display: inline;
+}
+
+.card-ads-upimage {
+    position: absolute;
+    z-index: 0;
+    width: 76px;
+    height: 76px;
+    top:-8px;
+    right: 0;
+}
+
+.card-ads-picture {
+    position: relative;
+ 
+    width: 300px;  
+    height: 170px;  
+    border-radius: 8px;
+    z-index: 0;   
+    
+    margin:8px;
+}
+
+.card-ads-container .fa-solid.fa-car-rear.fa-lg {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    color: #0A0731;
+    z-index: 5; 
+}
+
+.ads-card-title{
+    padding-right: 16px;
+color: #0A0731;
+ font-size: 18px;
+ font-weight: 600;
+ word-wrap: break-word;
+}
+
+.ads-card-subtitle{
+color: #54516F;
+padding-right: 16px;
+ font-size: 15px;
+ font-weight: 400;
+ word-wrap: break-word;
+ margin-top: -5px;
+}
+
+.ads-area__btn__price{
+
+    width: 213px;
+    height: 56px;
+    border: 0;
+    border-radius: 12px;
+    padding:15px 22px;
+    margin-right: 94px;
+    margin-top: 2px;
+    background-color: #F7F7F8;
+    font-size: 18;
+    font-weight: 600;
+}
+
+.ads-area__btn__price span {
+    display: inline-block; 
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    color: #666 !important;
+    margin-right: 4px; 
+}
+
+.right-newaddback{
+    position: absolute;
+
+}
+
+.right-newaddback{
+    position: absolute;
+    top:-170px;
+    right:-60px;
+    z-index: -5;
+}
+
+.left-newaddback{
+    position: absolute;
+    top:90px;
+    left:-60px;
+    z-index: -5; 
+
+}
+
+.down-card-shape{
+position: absolute;
+  right: 6px;
+  bottom: 6px;
+  z-index: -1;
+}
+
+.downcardshape{
+background: url("/images/icon/down-shape-card.svg");
+}
