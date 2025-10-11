@@ -1,0 +1,172 @@
+
+
+.t-grayBTN2{
+  color: #0A0731;
+  background-color:#e8e9eb; 
+  border:0;
+  border-radius: 12px;}
+ 
+.t-grayBTN2:hover{
+background-color:#e1e1e1;}
+
+
+
+.t-primaryBTN{
+  color: #ffffff;
+  background-color:#FF5744; 
+  border:0;
+  border-radius: 12px;
+  box-shadow: 0px 12px 32px rgba(255, 87, 68, 0.30)
+}
+.t-primaryBTN:hover{
+background-color:#ed4532;}
+
+
+
+.t-ulmenu-user {
+  color: #0A0731 !important;
+  background-color: #e3e3e3 !important;
+  border:0;
+  border-radius: 12px;
+  box-shadow: 0px 12px 32px rgba(195, 195, 195, 0.3);
+}
+
+.t-ulmenu-user:hover {
+  background-color: #46def2 !important;
+}
+
+
+
+.t-secondaryBTN{
+  color: #0A0731;
+  background-color:#54CDDE; 
+  border:0;
+  border-radius: 12px;
+ box-shadow: 0px 12px 32px rgba(70, 221, 243, 0.30);}
+ 
+.t-secondaryBTN:hover{
+background-color:#46def2;}
+
+
+
+ 
+.t-grayBTN{
+  color: #0A0731;
+  background-color:#EEF0F2; 
+  border:0;
+  border-radius: 12px;}
+ 
+.t-grayBTN:hover{
+background-color:#f5f5f5;}
+
+.t-btnsearch{
+color: #0A0731;
+  background-color:#EEF0F2; 
+  border:0;
+  border-radius: 12px;
+}
+
+.t-btnsearch:hover{
+color: #ffffff;
+  background-color:#E83C29; 
+  border:0;
+  border-radius: 12px;
+}
+
+.li-normal {
+
+padding-right: 16px;
+margin:8px;
+border-radius: 12px;
+
+}
+
+.li-normal:hover {
+   background-color: #FF57440D!important;
+}
+
+.li-normal-a {
+
+color: #0A0731!important;
+padding: 8px;
+ font-size: 16px;
+ font-weight: 600;
+ word-wrap: break-word;
+ text-decoration: none !important;
+ 
+}
+
+.li-normal-a:hover {
+  color: #FF5744!important;
+ 
+}
+ 
+.li-normal-icon-right{
+  color: #0A0731;
+}
+
+
+.li-normal-icon-right:hover{
+  color: #FF5744;
+}
+
+
+.ul-menu{
+  width: 318px;
+  height: 164px;
+  border-radius: 12px;
+  padding: 8px;
+  border: 0 !important;
+  
+}
+
+
+
+
+
+
+.t-infocolor{
+  color: #FF5744;
+  background-color:#FFEEEC; 
+  border:0;
+  border-radius: 12px;
+}
+
+.tablo-title{
+  color: #0A0731;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 6px;
+  line-height: 34px;
+}
+
+.tablo-title-mobile{
+  color: #0A0731;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 6px;
+}
+  .t-bg-Neutral{
+    color: #686781;
+  }
+  .t-bg-black{color:#000000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

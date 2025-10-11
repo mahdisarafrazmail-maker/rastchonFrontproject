@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: 'IRANYekanXVF';
+    src: url('../font/webfont/IRANYekanXVF.woff') format('woff-variations'),
+    /* will be the standard and works in Safari now */
+    url('../font/webfont/IRANYekanXVF.woff') format('woff');
+    /* for the other supporting browsers */
+    font-weight: 100 1000;
+    font-display: fallback;
+
+}
+@font-face {
+    font-family: 'IRANYekanXVF';
+    src: url('../font/webfont/IRANYekanXVF.woff2') format('woff-variations'),
+    /* will be the standard and works in Safari now */
+    url('../font/webfont/IRANYekanXVF.woff2') format('woff');
+    /* for the other supporting browsers */
+    font-weight: 100 1000;
+    font-display: fallback;
+
+}
+
+@font-face {
+    font-family: IRANYekanX;
+    src: url('../font/webfont/staticfonts/IRANYekanX-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: IRANYekanX;
+    src: url('../font/webfont/staticfonts/IRANYekanX-Bold.woff') format('woff');
+    font-weight: 700;
+}
+
+.ss02 {
+    -moz-font-feature-settings: "ss02";
+    -webkit-font-feature-settings: "ss02";
+    font-feature-settings: "ss02";
+}
+
