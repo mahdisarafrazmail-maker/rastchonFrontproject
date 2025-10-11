@@ -59,7 +59,7 @@ flex-wrap: wrap;
 }
 .card-ads-container{
     
-    background:url("/images/icon/new-ads-backshape.svg") no-repeat center;
+    background:url("../images/icon/new-ads-backshape.svg") no-repeat center;
     width: 316px;
     height: 327px;
     position: relative;
@@ -72,7 +72,7 @@ flex-wrap: wrap;
     text-align: right;
     width: 316px;
     height: 327px;
-    background: url("/images/icon/new-ads-backshape.svg") no-repeat center;
+    background: url("../images/icon/new-ads-backshape.svg") no-repeat center;
     display: inline;
 }
 
@@ -171,5 +171,5 @@ position: absolute;
 }
 
 .downcardshape{
-background: url("/images/icon/down-shape-card.svg");
+background: url("../images/icon/down-shape-card.svg");
 }
